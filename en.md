@@ -24,7 +24,7 @@ This policy informs contributors to philip.media projects and external parties (
 
 ## Report vulnerabilities
 
-Known or unknown security vulnerabilities in philip.media projects may be reported to philip.media as part of a [Responsible Disclosure Procedure](https://en.wikipedia.org/wiki/Responsible_disclosure).
+Known or unknown security vulnerabilities in philip.media projects may be reported to philip.media as part of a [Responsible Disclosure Procedure](https://en.wikipedia.org/wiki/Responsible_disclosure) and should follow the [Vulnerabilty Disclosure Policy](vdp.md).
 
 The contact details required for this can be found in our [security.txt](https://cldsi.de/.well-known/security.txt). Alternatively, security vulnerabilities can be reported on GitHub as an issue, should they not allow critical data retrieval. 
 
@@ -33,9 +33,10 @@ Verified security vulnerabilities reported to us will be fixed as soon as possib
 ## Dealing with reported vulnerabilities
 
 Reported vulnerabilities are checked for reproducibility as quickly as possible. This is usually done within one day.
+The reporting body is then notified and the further procedure, including when the vulnerability can be expected to be closed, is communicated.
 
-This is followed by a check of how long the vulnerability has existed and whether data could have been retrieved.
+This is followed by a check of how long the security gap has existed and whether data could be retrieved. 
 
-If it was (theoretically) possible to retrieve data, a report is sent to the Bavarian State Data Protection Commissioner, and all potentially affected parties are also informed by e-mail.
+If it was (theoretically) possible to retrieve data, the Bavarian State Data Protection Commissioner is notified and all potentially affected parties are also informed by e-mail.
 
-Depending on the scope, the CERT Bund and, if necessary, other bodies will be notified.
+Depending on the scope, the CERT Bund and, if necessary, other bodies will be notified. 
