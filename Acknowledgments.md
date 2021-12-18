@@ -13,12 +13,12 @@ philip.media would like to thank the following security researchers, who have re
 | Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	|
 |--------------------	|------------------------------	|------------	|-------	|
 | Gaurang Maheta     	| OpenSSH Username Enumeration 	| None       	| True  	|
-| Sivan Mujtaba      	| XSS Vulnerability            	| Yes        	| True  	|
-| ykl                	| XSS Vulnerability            	| Yes        	| True  	|
-| SECFAULT           	| iFrame injection             	| None       	| True  	|
+| Sivan Mujtaba      	| XSS Vulnerability            	| True        | True  	|
+| ykl                	| XSS Vulnerability            	| True        | True  	|
+| SECFAULT           	| iFrame injection             	| False      	| True  	|
 
 ## 2020
 
 | Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	|
 |--------------------	|------------------------------	|------------	|-------	|
-| No name given     	| Database leakage             	| Yes       	| True  	|
+| No name given     	| Database leakage             	| True       	| True  	|
