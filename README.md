@@ -24,7 +24,7 @@ Diese Richtlinie informiert Mitwirkende an Projekten von philip.media und extern
 
 ## Melden von Schwachstellen
 
-Bekannte oder unbekannte Sicherheitslücken in Projekten der philip.media sollten im Rahmen eines [Responsible Disclosure Verfahrens](https://de.wikipedia.org/wiki/Responsible_Disclosure_(IT-Sicherheit)) an philip.media gemeldet werden.
+Bekannte oder unbekannte Sicherheitslücken in Projekten der philip.media sollten im Rahmen eines [Responsible Disclosure Verfahrens](https://de.wikipedia.org/wiki/Responsible_Disclosure_(IT-Sicherheit)) an philip.media, der [Vulnerability Disclosure Policy](vdp.md) folgend, gemeldet werden.
 
 Die dafür erforderlichen Kontaktdaten finden sich in der allgemein gültigen [security.txt](https://cldsi.de/.well-known/security.txt). Alternativ können Sicherheitslücken auf GitHub als Issue gemeldet werden, sollten diese keinen kritischen Datenabruf ermöglichen. 
 
@@ -33,6 +33,7 @@ An uns gemeldete und verifizierte Sicherheitslücke und/oder Schwachstellen werd
 ## Umgang mit gemeldeten Schwachstellen
 
 Gemeldete Schwachstellen werden schnellstmöglich auf Reproduzierbarkeit überprüft. Dies geschieht in der Regel innerhalb eines Tages.
+Nachfolgend wird die meldende Stelle benachrichtigt und das weitere Verfahren, unter anderem, wann mit der Schließung der Lücke zu rechnen ist, wird kommuniziert.
 
 Daraufhin wird außerdem überprüft, seit wann die Sicherheitslücke bestand und ob Daten abgerufen werden konnten. 
 
