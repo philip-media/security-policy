@@ -9,6 +9,7 @@
 - [Testing for vulnerabilities](#testing-for-vulnerabilties)
 - [How to test](#how-to-test)
 - [Creating a report](#creating-a-report)
+- [Contact](#contact)
 
 ## Testing for vulnerabilities
 Everyone is welcome to test our products against known or new vulnerabilities. 
@@ -23,7 +24,7 @@ You may test any philip.media product against any vulnerability but:
 
 ## Creating a report
 ### Correct report format
-We'd like to encourage you to use the following table-format if you send us a vulnerability report, as this is the easiest way for us to reproduce the vulnerability and start fixing it: 
+We'd like to encourage you to use the following table-format if you send us a vulnerability report, as this is the easiest way for us to proccess the report, reproduce the vulnerability and start fixing it: 
 
 |           	|                                                           	|
 |--------------------------------	|-----------------------------------------------------------------------------	|
@@ -41,3 +42,35 @@ We'd like to encourage you to use the following table-format if you send us a vu
 | Date of discovery:             	| 18/12/2021                                                                  	|
 | Additional information:        	|                                                                             	|
 | Full vunerability description: 	|                                                                             	|
+
+Please send your report PGP-encrypted, if possible, and only use our security contact credentials found in our [security.txt](https://cldsi.de/.well-known/security.txt). Learn more on [Contact](#contact).
+
+### If you want to publish the vulnerability
+Please tell us if you are planning on publishing the vulnerability you've found. 
+You are welcome to make a suggestion as to when the vulnerability should be fixed.
+
+Please allow a **minimum of one month** after reporting the vulnerability before publishing it and wait for our confirmation of receiving your report.
+
+The disclosure process should follow the Responsible Disclosure procedure.
+
+### If you want to receive a bounty
+We're sorry to inform you that we're currently not abled to offer bountys and that there is no bounty program. 
+If you are interested in a bounty, please tell us anyway in your report, since there are exceptions. 
+
+## Contact
+
+Currently, our security-contact is:
+
+      # Our security address
+      Contact: mailto:security@cldsi.de
+
+      # Our OpenPGP key
+      Encryption: https://cldsi.de/pgp.txt
+
+      Preferred-Languages: en, de
+
+      # Our seurity policy
+      Policy: https://philip-media.github.io/security-policy/en.html
+      Acknowledgments: https://philip-media.github.io/security-policy/Acknowledgments.html
+
+      Canonical: https://cldsi.de/.well-known/security.txt
