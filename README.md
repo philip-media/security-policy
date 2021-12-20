@@ -1,41 +1,41 @@
-<p align="center">
 <img src="https://raw.githubusercontent.com/philip-media/security-policy/main/pmd.svg" alt="philip.media" width="250" align="center">
-</p>
+ </p>
 
-# Security Policy of philip.media
+ # Security Policy von philip.media
+ #### German version - English version is located at [en.md](en.md)
 
-## Purpose
-The purpose of this security policy is to protect the integrity, the information and the security in general of the projects of philip.media.
+ ## Zweck
+ Zweck dieser Sicherheitsrichtlinie ist es, die Integrität, die Informationen und die Sicherheit im allgemeinen der Projekte von philip.media zu schützen.
 
-philip.media is a private project, which opperates as philip.media, JokeNetwork, VeganCheck, cldsi.de and other names. 
-The goal is to develop front-end, video-, photo- and other multimedia-solutions, mainly for the educational sector, but also for various other areas. 
+ Bei philip.media handelt es sich um ein privates Projekt, welches unter anderem unter philip.media, JokeNetwork, VeganCheck und cldsi.de auftritt. 
+ Ziel ist die Entwicklung von Front-End-, Video-, Foto- und weiteren Multimedialösungen, hauptsächlich für den pädagogischen Sektor, aber auch für verschiedene andere Bereiche. 
 
-This policy informs contributors to philip.media projects and external parties (such as security researchers) of the principles that govern the possession, use, and destruction of philip.media information.
+ Diese Richtlinie informiert Mitwirkende an Projekten von philip.media und externe Personen (beispielsweise Sicherhheitsforscher) über die Grundsätze, die für den Besitz, die Nutzung und die Vernichtung von Informationen über philip.media gelten.
 
-## Objectives of the Security Policy
+ ## Ziele der Security Policy
 
-- Protect information from unauthorized access or misuse
-- Ensure the confidentiality of information
-- Maintain the integrity of information
-- Maintain the availability of information/information systems for the provision of services
-- Regulatory, contractual and legal requirements are met
-- When information is no longer useful, it is disposed of in an appropriate manner
+ - Informationen vor unbefugtem Zugriff oder Missbrauch schützen
+ - Die Vertraulichkeit von Informationen sicherstellen.
+ - Die Integrität der Informationen wahren
+ - Die Verfügbarkeit von Informationen/Informationssystemen für die Erbringung von Dienstleistungen wird aufrechterhalten
+ - Regulatorische, vertragliche und gesetzliche Anforderungen werden eingehalten
+ - Wenn Informationen nicht mehr von Nutzen sind, werden sie in geeigneter Weise entsorgt
 
-## Report vulnerabilities
+ ## Melden von Schwachstellen
 
-Known or unknown security vulnerabilities in philip.media projects may be reported to philip.media as part of a [Responsible Disclosure Procedure](https://en.wikipedia.org/wiki/Responsible_disclosure) and should follow the [Vulnerabilty Disclosure Policy](vdp.md).
+ Bekannte oder unbekannte Sicherheitslücken in Projekten der philip.media sollten im Rahmen eines [Responsible Disclosure Verfahrens](https://de.wikipedia.org/wiki/Responsible_Disclosure_(IT-Sicherheit)) an philip.media, der [Vulnerability Disclosure Policy](vdp.md) folgend, gemeldet werden.
 
-The contact details required for this can be found in our [security.txt](https://cldsi.de/.well-known/security.txt). Alternatively, security vulnerabilities can be reported on GitHub as an issue, should they not allow critical data retrieval. 
+ Die dafür erforderlichen Kontaktdaten finden sich in der allgemein gültigen [security.txt](https://cldsi.de/.well-known/security.txt). Alternativ können Sicherheitslücken auf GitHub als Issue gemeldet werden, sollten diese keinen kritischen Datenabruf ermöglichen. 
 
-Verified security vulnerabilities reported to us will be fixed as soon as possible and the responsible security researchers will be listed at [Acknowledgments.md](Acknowledgments.md). 
+ An uns gemeldete und verifizierte Sicherheitslücke und/oder Schwachstellen werden schnellstmöglich behoben und die verantwortlichen Sicherheitsforscher werden unter [Acknowledgments.md](Acknowledgments.md) gelistet. 
 
-## Dealing with reported vulnerabilities
+ ## Umgang mit gemeldeten Schwachstellen
 
-Reported vulnerabilities are checked for reproducibility as quickly as possible. This is usually done within one day.
-The reporting body is then notified and the further procedure, including when the vulnerability can be expected to be closed, is communicated.
+ Gemeldete Schwachstellen werden schnellstmöglich auf Reproduzierbarkeit überprüft. Dies geschieht in der Regel innerhalb eines Tages.
+ Nachfolgend wird die meldende Stelle benachrichtigt und das weitere Verfahren, unter anderem, wann mit der Schließung der Lücke zu rechnen ist, wird kommuniziert.
 
-This is followed by a check of how long the security gap has existed and whether data could be retrieved. 
+ Daraufhin wird außerdem überprüft, seit wann die Sicherheitslücke bestand und ob Daten abgerufen werden konnten. 
 
-If it was (theoretically) possible to retrieve data, the Bavarian State Data Protection Commissioner is notified and all potentially affected parties are also informed by e-mail.
+ Sollte ein Datenabruf (theoretisch) möglich gewesen sein, erfolgt eine Meldung an den Bayerischen Landesdatenschutzbeauftragten, zusätzlich werden alle potenziell Betroffenen per E-Mail informiert.
 
-Depending on the scope, the CERT Bund and, if necessary, other bodies will be notified. 
+ Je nach Umfang erfoglen außerdem Meldungen an den CERT Bund und gegebenenfalls andere Stellen. 
