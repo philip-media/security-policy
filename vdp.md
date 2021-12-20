@@ -31,7 +31,7 @@ We'd like to encourage you to use the following table-format if you send us a vu
 | Security Researcher:           	| Your name, Company                                                          	|
 | Security Researcher URI:       	| e.g. https://yourdomain.com                                                 	|
 | Security Researcher Mail:      	| e.g. you@yourdomain.com                                                     	|
-| Seucirts Researcher PGP:       	| optional - Your PGP-fingerprint                                             	|
+| Security Researcher PGP:       	| optional - Your PGP-fingerprint                                             	|
 | Affected service(s):           	| e.g. VeganCheck.me                                                          	|
 | Vulnerability:                 	| Short description of the vulnerability                                      	|
 | Vulnerability URI:             	| optional - If the vulnerability is already published, please provide a link 	|
