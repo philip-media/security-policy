@@ -12,7 +12,7 @@ philip.media would like to thank the following security researchers, who have re
 
 | Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	|
 |--------------------	|------------------------------	|------------	|-------	|
-| Intern (pb)         | Log4Shell                     | True        | False, but disabled  |
+| Intern (pb)         | Log4Shell                     | True        | True    |
 | Gaurang Maheta     	| OpenSSH Username Enumeration 	| None       	| True  	|
 | Sivan Mujtaba      	| XSS Vulnerability            	| True        | True  	|
 | ykl                	| XSS Vulnerability            	| True        | True  	|
