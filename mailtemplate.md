@@ -1,4 +1,5 @@
 # DATENSCHUTZINFORMATION GEMÄẞ ART. 34 DSGVO
+#### (Benachrichtigung der von einer Verletzung des Schutzes personenbezogener Daten betroffenen Person) 
 
 Lieber Nutzer von [Dienst],
 
@@ -42,7 +43,8 @@ Für alle weiteren Fragen zu unserem Online-Angebot kontaktiere bitte philip.med
 
 -----
 
-# DATA PROTECTION INFORMATION PURSUANT TO ART. 34 DSGVO
+# DATA PROTECTION INFORMATION PURSUANT TO ART. 34 EU GDPR
+#### (Communication of a personal data breach to the data subject)
 
 Dear user of [service],
 
