@@ -10,7 +10,7 @@ philip.media would like to thank the following security researchers, who have re
 
 | Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	| CVE | Risk level |
 |--------------------	|------------------------------	|------------	|-------	|----- |----|
-|                    	| Unauthorized REST-API Access (WP) 	| False       	| True  	| CVE-2017-5487 | <img src="https://cldsi.de/bot/vuln/medium.svg" height="30"> 
+|Parshwa Bhavsar    	| Unauthorized REST-API Access (WP) 	| False       	| True  	| CVE-2017-5487 | <img src="https://cldsi.de/bot/vuln/medium.svg" height="30"> 
 
 ## 2021
 
