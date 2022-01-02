@@ -8,18 +8,22 @@ philip.media would like to thank the following security researchers, who have re
 
 ## 2022
 
+| Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	| CVE | Risk level |
+|--------------------	|------------------------------	|------------	|-------	|----- |----|
+|                    	| Unauthorized REST-API Access (WP) 	| False       	| True  	| CVE-2017-5487 | <img src="https://cldsi.de/bot/vuln/medium.svg" height="30"> 
+
 ## 2021
 
-| Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	|
-|--------------------	|------------------------------	|------------	|-------	|
-| Intern (pb)         | Log4Shell                     | True        | True    |
-| Gaurang Maheta     	| OpenSSH Username Enumeration 	| None       	| True  	|
-| Sivan Mujtaba      	| XSS Vulnerability            	| True        | True  	|
-| ykl                	| XSS Vulnerability            	| True        | True  	|
-| SECFAULT           	| iFrame injection             	| False      	| True  	|
+| Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	| CVE | Risk level |
+|--------------------	|------------------------------	|------------	|-------	|---- |----- |
+| Intern (pb)         | Log4Shell                     | True        | True    |CVE-2021-45105 | <img src="https://cldsi.de/bot/vuln/high.svg" height="30">
+| Gaurang Maheta     	| OpenSSH Username Enumeration 	| None       	| True  	| |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
+| Sivan Mujtaba      	| XSS Vulnerability            	| True        | True  	| |<img src="https://cldsi.de/bot/vuln/low.svg" height="30">
+| ykl                	| XSS Vulnerability            	| True        | True  	| |<img src="https://cldsi.de/bot/vuln/low.svg" height="30">
+| SECFAULT           	| iFrame injection             	| False      	| True  	| |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
 
 ## 2020
 
-| Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	|
-|--------------------	|------------------------------	|------------	|-------	|
-| No name given     	| Database leakage             	| True       	| True  	|
+| Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	| Risk level |
+|--------------------	|------------------------------	|------------	|-------	|----- |
+| No name given     	| Database leakage             	| True       	| True  	| <img src="https://cldsi.de/bot/vuln/high.svg" height="30">
