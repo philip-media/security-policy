@@ -19,7 +19,7 @@ Please conduct to the following guidelines on how to test and what to avoid, bef
 You may test any philip.media product against any vulnerability but:
 - Vulnerabilities which could affect the availability of the service (DDoS, DoS, BF-Attack)
 - Accessing personal data protected under the GDPR or other privacy acts. If you find a vulnerability like this, please do not access the data but instead proceed to report the vulnerability directly.
-- Peramently damaging a service (e.g. deleting databases and/or also deleting backup-servers)
+- Permanently damaging a service (e.g. deleting databases and/or deleting backup-servers)
 - Automated testing - Please do not perform any tests with a bot/automated.
 
 ## Creating a report
@@ -43,7 +43,7 @@ We'd like to encourage you to use the following table-format if you send us a vu
 | Additional information:        	|                                                                             	|
 | Full vunerability description: 	|                                                                             	|
 
-Please send your report PGP-encrypted, if possible, and only use our security contact credentials found in our [security.txt](https://cldsi.de/.well-known/security.txt). Learn more on [Contact](#contact).
+Please send your report PGP-encrypted if possible and only use our security contact credentials found in our [security.txt](https://cldsi.de/.well-known/security.txt). Learn more on [Contact](#contact).
 
 ### If you want to publish the vulnerability
 Please tell us if you are planning on publishing the vulnerability you've found. 
