@@ -11,6 +11,7 @@ philip.media would like to thank the following security researchers, who have re
 | Name of Researcher 	| Vulnerability                	| Conformity 	| Fixed 	| CVE | Affected services | Risk level |
 |--------------------	|------------------------------	|------------	|-------	|----- |----|----|
 |Parshwa Bhavsar    	| Unauthorized REST-API Access (WP) 	| False       	| True  	| CVE-2017-5487 | All WP instances | <img src="https://cldsi.de/bot/vuln/medium.svg" height="30"> 
+| Gaurang Maheta     	| Deprecated SSH Protocol (False positive)     	| None       	| False 	| CVE-2001-1473 |Production server|<img src="https://cldsi.de/bot/vuln/low.svg" height="30">
 
 ## 2021
 
