@@ -10,11 +10,11 @@ philip.media would like to thank the following security researchers, who have re
 
 | Researcher 	        | Vulnerability                	| CVE | Risk level |
 |--------------------	|------------------------------	|-------	|----- |
-|Parshwa Bhavsar    	| Unauthorized REST-API Access (WP) 		  	| CVE-2017-5487 | <img src="https://cldsi.de/bot/vuln/medium.svg" height="30"> 
-| Gaurang Maheta     	| Deprecated SSH Protocol (False positive)     	| CVE-2001-1473 |<img src="https://cldsi.de/bot/vuln/low.svg" height="30">
-| [Dependabot](https://github.com/dependabot)     	| Cross-domain cookie leakage in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle))  	| CVE-2022-29248 |<img src="https://cldsi.de/bot/vuln/high.svg" height="30">
-| [Dependabot](https://github.com/dependabot)     	| Fix failure to strip Authorization header on HTTP downgrade in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle))     	| CVE-2022-31043 |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
-| [Dependabot](https://github.com/dependabot)     	| Failure to strip the Cookie header on change in host or HTTP downgrade in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle)) 	| CVE-2022-31042 |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
+|Parshwa Bhavsar    	| Unauthorized REST-API Access (WP) 		  	| [CVE-2017-5487](https://vulmon.com/vulnerabilitydetails?qid=CVE-2017-5487) | <img src="https://cldsi.de/bot/vuln/medium.svg" height="30"> 
+| Gaurang Maheta     	| Deprecated SSH Protocol (False positive)     	| [CVE-2001-1473](https://vulmon.com/vulnerabilitydetails?qid=CVE-2001-1473) |<img src="https://cldsi.de/bot/vuln/low.svg" height="30">
+| [Dependabot](https://github.com/dependabot)     	| Cross-domain cookie leakage in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle))  	| [CVE-2022-29248](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-29248) |<img src="https://cldsi.de/bot/vuln/high.svg" height="30">
+| [Dependabot](https://github.com/dependabot)     	| Fix failure to strip Authorization header on HTTP downgrade in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle))     	| [CVE-2022-31043](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31043) |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
+| [Dependabot](https://github.com/dependabot)     	| Failure to strip the Cookie header on change in host or HTTP downgrade in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle)) 	| [CVE-2022-31042](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31042) |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
 
 
 
@@ -22,7 +22,7 @@ philip.media would like to thank the following security researchers, who have re
 
 | Name of Researcher 	| Vulnerability                	| CVE | Risk level |
 |--------------------	|------------------------------	|------------	|-------|
-| Intern (pb)         | Log4Shell                     |CVE-2021-45105 | <img src="https://cldsi.de/bot/vuln/high.svg" height="30">
+| Intern (pb)         | Log4Shell                     |[CVE-2021-45105](https://vulmon.com/vulnerabilitydetails?qid=CVE-2021-45105) | <img src="https://cldsi.de/bot/vuln/high.svg" height="30">
 | Gaurang Maheta     	| OpenSSH Username Enumeration 	||<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
 | Sivan Mujtaba      	| XSS Vulnerability            	||<img src="https://cldsi.de/bot/vuln/low.svg" height="30">
 | ykl                	| XSS Vulnerability            	| |<img src="https://cldsi.de/bot/vuln/low.svg" height="30">
