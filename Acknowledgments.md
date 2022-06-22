@@ -15,6 +15,8 @@ philip.media would like to thank the following security researchers, who have re
 | [Dependabot](https://github.com/dependabot)     	| Cross-domain cookie leakage in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle))  	| [CVE-2022-29248](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-29248) |<img src="https://cldsi.de/bot/vuln/high.svg" height="30">
 | [Dependabot](https://github.com/dependabot)     	| Fix failure to strip Authorization header on HTTP downgrade in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle))     	| [CVE-2022-31043](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31043) |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
 | [Dependabot](https://github.com/dependabot)     	| Failure to strip the Cookie header on change in host or HTTP downgrade in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle)) 	| [CVE-2022-31042](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31042) |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
+| [Dependabot](https://github.com/dependabot)     	| Change in port should be considered a change in origin in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle)) 	| [CVE-2022-31091](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31091) |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
+| [Dependabot](https://github.com/dependabot)     	| CURLOPT_HTTPAUTH option not cleared on change of origin in Guzzle ([guzzlehttp/guzzle](https://github.com/guzzle/guzzle)) 	| [CVE-2022-31090](https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31090) |<img src="https://cldsi.de/bot/vuln/medium.svg" height="30">
 
 
 
