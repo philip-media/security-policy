@@ -6,6 +6,12 @@
 
 philip.media would like to thank the following security researchers, who have reported vulnerabilities to us as part of a Responsible Disclosure Procedure:
 
+## 2023 
+
+| Researcher 	        | Vulnerability                	| CVE | Risk level |
+|--------------------	|------------------------------	|-------	|----- |
+|[Jack Works](https://github.com/Jack-Works) via [Dependabot](https://github.com/dependabot)	| Cross-realm object access in [Webpack 5](https://github.com/webpack/webpack/pull/16500) 		  	| [CVE-2023-28154](https://vulmon.com/vulnerabilitydetails?qid=CVE-2023-28154) | <img src="https://cldsi.de/bot/vuln/medium.svg" height="30"> 
+
 ## 2022
 
 | Researcher 	        | Vulnerability                	| CVE | Risk level |
