@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark" data-dark-theme="dark">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>philip.media Security Policy</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+  </head>
+  <body class="mx-auto">
+    <div class="Header">
+      <div class="Header-item">
+        <a href="index.html" class="Header-link active">Home</a>
+      </div>
+      <div class="Header-item">
+        <a href="vdp.html" class="Header-link"
+          >Vulnerabilty Disclosure Policy</a
+        >
+      </div>
+      <div class="Header-item">
+        <a href="scope.html" class="Header-link">Scope</a>
+      </div>
+      <div class="Header-item">
+        <a href="Acknowledgments.html" class="Header-link">Acknowledgments</a>
+      </div>
+    </div>
+    <div class="m-5 mx-auto markdown-body">
+      <img width="200px" src="assets/img/pml.svg" alt="philip.media Logo" />
+      <h1>Security Policy of philip.media</h1>
+      <h2>Purpose</h2>
+      <p>
+        The purpose of this security policy is to protect the integrity, the
+        information and the security in general of the projects of philip.media.
+      </p>
+
+      <p>
+        philip.media is a private project, which opperates as philip.media,
+        JokeNetwork, VeganCheck, cldsi.de and other names. The goal is to
+        develop front-end, video-, photo- and other multimedia-solutions, mainly
+        for the educational sector, but also for various other areas.
+      </p>
+
+      <p>
+        This policy informs contributors to philip.media projects and external
+        parties (such as security researchers) of the principles that govern the
+        possession, use, and destruction of philip.media information.
+      </p>
+
+      <h2>Objectives of the Security Policy</h2>
+      <ul>
+        <li>Protect information from unauthorized access or misuse</li>
+        <li>Ensure the confidentiality of information</li>
+        <li>Maintain the integrity of information</li>
+        <li>
+          Maintain the availability of information/information systems for the
+          provision of services
+        </li>
+        <li>Regulatory, contractual and legal requirements are met</li>
+        <li>
+          When information is no longer useful, it is disposed of in an
+          appropriate manner
+        </li>
+      </ul>
+      <h2>Report vulnerabilities</h2>
+      <p>
+        Known or unknown security vulnerabilities in philip.media projects may
+        be reported to philip.media as part of a
+        <a href="https://en.wikipedia.org/wiki/Responsible_disclosure"
+          >Responsible Disclosure Procedure</a
+        >
+        and should follow the
+        <a href="vdp.html">Vulnerabilty Disclosure Policy</a>.
+      </p>
+      <p>
+        The contact details required for this can be found in our
+        <a href="https://cldsi.de/.well-known/security.txt">security.txt</a>.
+        Alternatively, security vulnerabilities can be reported on GitHub as an
+        issue, should they not allow critical data retrieval.
+      </p>
+      <p>
+        Verified security vulnerabilities reported to us will be fixed as soon
+        as possible and the responsible security researchers will be listed at
+        <a href="Acknowledgments.html">Acknowledgments</a>.
+      </p>
+      <h2>Dealing with reported vulnerabilities</h2>
+      <p>
+        Reported vulnerabilities are checked for reproducibility as quickly as
+        possible. This is usually done within one day. The reporting body is
+        then notified and the further procedure, including when the
+        vulnerability can be expected to be closed, is communicated.
+      </p>
+
+      <p>
+        This is followed by a check of how long the security gap has existed and
+        whether data could be retrieved.
+      </p>
+
+      <p>
+        If it was (theoretically) possible to retrieve data, the Bavarian State
+        Data Protection Commissioner is notified and all potentially affected
+        parties are also informed by e-mail.
+      </p>
+
+      <p>
+        Depending on the scope, the CERT Bund and, if necessary, other bodies
+        will be notified.
+      </p>
+
+      <footer class="border-top">
+        <p class="color-fg-muted mt-2">
+          &copy; <span id="date"></span>
+          <a href="//philip.media">philip.media</a> - Licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+        </p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById("date").innerHTML = new Date().getFullYear();
+      anchors.add("h1, h2, h3, h4");
+    </script>
+  </body>
+</html>

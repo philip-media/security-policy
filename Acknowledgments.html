@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark" data-dark-theme="dark">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>philip.media Security Policy</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+  </head>
+  <body class="mx-auto">
+    <div class="Header">
+      <div class="Header-item">
+        <a href="index.html" class="Header-link">Home</a>
+      </div>
+      <div class="Header-item">
+        <a href="vdp.html" class="Header-link"
+          >Vulnerabilty Disclosure Policy</a
+        >
+      </div>
+      <div class="Header-item">
+        <a href="scope.html" class="Header-link">Scope</a>
+      </div>
+      <div class="Header-item">
+        <a href="Acknowledgments.html" class="Header-link active">Acknowledgments</a>
+      </div>
+    </div>
+    <div class="m-5 mx-auto markdown-body">
+      <img width="200px" src="assets/img/pml.svg" alt="philip.media Logo" />
+      <h1 id="responsible-vulnerability-disclosure-acknowledgements">
+        Responsible vulnerability disclosure acknowledgements
+      </h1>
+
+      <p>
+        philip.media would like to thank the following security researchers, who
+        have reported vulnerabilities to us as part of a Responsible Disclosure
+        Procedure:
+      </p>
+
+      <h2 id="2023">2023</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Researcher</th>
+            <th>Vulnerability</th>
+            <th>CVE</th>
+            <th>Risk level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="https://github.com/Jack-Works">Jack Works</a> via
+              <a href="https://github.com/dependabot">Dependabot</a>
+            </td>
+            <td>
+              Cross-realm object access in
+              <a href="https://github.com/webpack/webpack/pull/16500"
+                >Webpack 5</a
+              >
+            </td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2023-28154"
+                >CVE-2023-28154</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--attention fullwidth"
+                >Medium risk</span
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="2022">2022</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Researcher</th>
+            <th>Vulnerability</th>
+            <th>CVE</th>
+            <th>Risk level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Parshwa Bhavsar</td>
+            <td>Unauthorized REST-API Access (WP)</td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2017-5487"
+                >CVE-2017-5487</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--attention fullwidth"
+                >Medium risk</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Gaurang Maheta</td>
+            <td>Deprecated SSH Protocol (False positive)</td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2001-1473"
+                >CVE-2001-1473</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--success fullwidth">Low risk</span>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/dependabot">Dependabot</a></td>
+            <td>
+              Cross-domain cookie leakage in Guzzle (<a
+                href="https://github.com/guzzle/guzzle"
+                >guzzlehttp/guzzle</a
+              >)
+            </td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-29248"
+                >CVE-2022-29248</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--danger fullwidth">High risk</span>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/dependabot">Dependabot</a></td>
+            <td>
+              Fix failure to strip Authorization header on HTTP downgrade in
+              Guzzle (<a href="https://github.com/guzzle/guzzle"
+                >guzzlehttp/guzzle</a
+              >)
+            </td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31043"
+                >CVE-2022-31043</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--attention fullwidth"
+                >Medium risk</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/dependabot">Dependabot</a></td>
+            <td>
+              Failure to strip the Cookie header on change in host or HTTP
+              downgrade in Guzzle (<a href="https://github.com/guzzle/guzzle"
+                >guzzlehttp/guzzle</a
+              >)
+            </td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31042"
+                >CVE-2022-31042</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--attention fullwidth"
+                >Medium risk</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/dependabot">Dependabot</a></td>
+            <td>
+              Change in port should be considered a change in origin in Guzzle
+              (<a href="https://github.com/guzzle/guzzle">guzzlehttp/guzzle</a>)
+            </td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31091"
+                >CVE-2022-31091</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--success fullwidth">Low risk</span>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/dependabot">Dependabot</a></td>
+            <td>
+              CURLOPT_HTTPAUTH option not cleared on change of origin in Guzzle
+              (<a href="https://github.com/guzzle/guzzle">guzzlehttp/guzzle</a>)
+            </td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2022-31090"
+                >CVE-2022-31090</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--attention fullwidth"
+                >Medium risk</span
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="2021">2021</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Researcher</th>
+            <th>Vulnerability</th>
+            <th>CVE</th>
+            <th>Risk level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Intern (pb)</td>
+            <td>Log4Shell</td>
+            <td>
+              <a
+                href="https://vulmon.com/vulnerabilitydetails?qid=CVE-2021-45105"
+                >CVE-2021-45105</a
+              >
+            </td>
+            <td>
+              <span class="Label mr-1 Label--danger fullwidth">High risk</span>
+            </td>
+          </tr>
+          <tr>
+            <td>Gaurang Maheta</td>
+            <td>OpenSSH Username Enumeration</td>
+            <td> </td>
+            <td>
+              <span class="Label mr-1 Label--attention fullwidth"
+                >Medium risk</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Sivan Mujtaba</td>
+            <td>XSS Vulnerability</td>
+            <td> </td>
+            <td>
+              <span class="Label mr-1 Label--success fullwidth">Low risk</span>
+            </td>
+          </tr>
+          <tr>
+            <td>ykl</td>
+            <td>XSS Vulnerability</td>
+            <td> </td>
+            <td>
+              <span class="Label mr-1 Label--success fullwidth">Low risk</span>
+            </td>
+          </tr>
+          <tr>
+            <td>SECFAULT</td>
+            <td>iFrame injection</td>
+            <td> </td>
+            <td>
+              <span class="Label mr-1 Label--attention fullwidth"
+                >Medium risk</span
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="2020">2020</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Researcher</th>
+            <th>Vulnerability</th>
+            <th>CVE</th>
+            <th>Risk level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>No name given</td>
+            <td>Database leakage</td>
+            <td> </td>
+            <td>
+              <span class="Label mr-1 Label--danger fullwidth">High risk</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <footer class="border-top">
+        <p class="color-fg-muted mt-2">
+          &copy; <span id="date"></span>
+          <a href="//philip.media">philip.media</a> - Licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+        </p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById("date").innerHTML = new Date().getFullYear();
+      anchors.add("h1, h2, h3, h4");
+    </script>
+  </body>
+</html>

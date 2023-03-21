@@ -1,0 +1,76 @@
+.markdown-body {
+  width: 50%;
+}
+
+table {
+  width: 100% !important;
+  display: revert !important;
+}
+
+th {
+  text-align: left !important;
+}
+
+td {
+  width: 30% !important;
+}
+
+tr > td:last-of-type {
+  width: 10% !important;
+}
+
+.fullwidth {
+  width: 100%;
+  text-align: center;
+}
+
+.Header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(9, 11, 13, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.Header-link {
+  color: #ccc !important;
+  font-weight: 400 !important;
+}
+
+.active {
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+.anchorjs-link {
+  color: #fff;
+  padding-left: 0.1em !important;
+  opacity: 0;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.anchorjs-link:hover {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .markdown-body {
+    width: 90%;
+  }
+
+  table {
+    display: block !important;
+    overflow-x: auto;
+  }
+
+  .Header {
+    overflow-x: scroll;
+  }
+
+  .Header-item {
+    font-size: 0.8rem;
+  }
+}

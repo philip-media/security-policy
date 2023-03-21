@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark" data-dark-theme="dark">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>philip.media Security Policy</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+  </head>
+  <body class="mx-auto">
+    <div class="Header">
+      <div class="Header-item">
+        <a href="index.html" class="Header-link">Home</a>
+      </div>
+      <div class="Header-item">
+        <a href="vdp.html" class="Header-link active"
+          >Vulnerabilty Disclosure Policy</a
+        >
+      </div>
+      <div class="Header-item">
+        <a href="scope.html" class="Header-link">Scope</a>
+      </div>
+      <div class="Header-item">
+        <a href="Acknowledgments.html" class="Header-link">Acknowledgments</a>
+      </div>
+    </div>
+    <div class="m-5 mx-auto markdown-body">
+      <img width="200px" src="assets/img/pml.svg" alt="philip.media Logo" />
+      <h1 id="philipmedia-vulnerabilty-disclosure-policy">
+        philip.media Vulnerabilty Disclosure Policy
+      </h1>
+
+      <h2 id="table-of-contents">Table of contents</h2>
+
+      <ul>
+        <li>
+          <a href="#testing-for-vulnerabilities">Testing for vulnerabilities</a>
+        </li>
+        <li><a href="#how-to-test">How to test</a></li>
+        <li><a href="#creating-a-report">Creating a report</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <h2 id="testing-for-vulnerabilities">Testing for vulnerabilities</h2>
+      <p>
+        Everyone is welcome to test our products against known or new
+        vulnerabilities. Please conduct to the following guidelines on how to
+        test and what to avoid, before performing your tests and reporting a
+        vulnerability you have found.
+      </p>
+
+      <h2 id="how-to-test">How to test</h2>
+      <p>
+        You may test any philip.media product against any vulnerability but:
+      </p>
+      <ul>
+        <li>
+          Vulnerabilities which could affect the availability of the service
+          (DDoS, DoS, BF-Attack)
+        </li>
+        <li>
+          Accessing personal data protected under the GDPR or other privacy
+          acts. If you find a vulnerability like this, please do not access the
+          data but instead proceed to report the vulnerability directly.
+        </li>
+        <li>
+          Permanently damaging a service (e.g. deleting databases and/or
+          deleting backup-servers)
+        </li>
+        <li>
+          Automated testing - Please do not perform any tests with a
+          bot/automated.
+        </li>
+      </ul>
+
+      <h2 id="creating-a-report">Creating a report</h2>
+      <h3 id="correct-report-format">Correct report format</h3>
+      <p>
+        We’d like to encourage you to use the following table-format if you send
+        us a vulnerability report, as this is the easiest way for us to proccess
+        the report, reproduce the vulnerability and start fixing it:
+      </p>
+
+      <table>
+        <tbody>
+          <tr>
+            <td>Security Researcher:</td>
+            <td>Your name, Company</td>
+          </tr>
+          <tr>
+            <td>Security Researcher URI:</td>
+            <td>e.g. https://yourdomain.com</td>
+          </tr>
+          <tr>
+            <td>Security Researcher Mail:</td>
+            <td>e.g. you@yourdomain.com</td>
+          </tr>
+          <tr>
+            <td>Security Researcher PGP:</td>
+            <td>optional - Your PGP-fingerprint</td>
+          </tr>
+          <tr>
+            <td>Affected service(s):</td>
+            <td>e.g. VeganCheck.me</td>
+          </tr>
+          <tr>
+            <td>Vulnerability:</td>
+            <td>Short description of the vulnerability</td>
+          </tr>
+          <tr>
+            <td>Vulnerability URI:</td>
+            <td>
+              optional - If the vulnerability is already published, please
+              provide a link
+            </td>
+          </tr>
+          <tr>
+            <td>Steps to reproduce:</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>Affected systems:</td>
+            <td>Only if applicable and known - e.g. APACHE, NGINX</td>
+          </tr>
+          <tr>
+            <td>Affected OS:</td>
+            <td>
+              Only if applicable and known - e.g. Linux RHEL 7.8, Mac OS 12.0.1
+            </td>
+          </tr>
+          <tr>
+            <td>Affected browsers:</td>
+            <td>
+              Only if applicable and known - e.g. Chrome Canary 92.0.4498.0
+            </td>
+          </tr>
+          <tr>
+            <td>Date of discovery:</td>
+            <td>18/12/2021</td>
+          </tr>
+          <tr>
+            <td>Additional information:</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>Full vunerability description:</td>
+            <td> </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Please send your report PGP-encrypted if possible and only use our
+        security contact credentials found in our
+        <a href="https://cldsi.de/.well-known/security.txt">security.txt</a>.
+        Learn more on <a href="#contact">Contact</a>.
+      </p>
+
+      <h3 id="if-you-want-to-publish-the-vulnerability">
+        If you want to publish the vulnerability
+      </h3>
+      <p>
+        Please tell us if you are planning on publishing the vulnerability
+        you’ve found. You are welcome to make a suggestion as to when the
+        vulnerability should be fixed.
+      </p>
+
+      <p>
+        Please allow a <strong>minimum of one month</strong> after reporting the
+        vulnerability before publishing it and wait for our confirmation of
+        receiving your report.
+      </p>
+
+      <p>
+        The disclosure process should follow the Responsible Disclosure
+        procedure.
+      </p>
+
+      <h3 id="if-you-want-to-receive-a-bounty">
+        If you want to receive a bounty
+      </h3>
+      <p>
+        We’re sorry to inform you that we’re currently not abled to offer
+        bountys and that there is no bounty program. If you are interested in a
+        bounty, please tell us anyway in your report, since there are
+        exceptions.
+      </p>
+
+      <h2 id="contact">Contact</h2>
+
+      <p>Currently, our security-contact is:</p>
+
+      <div class="language-plaintext highlighter-rouge">
+        <div class="highlight">
+          <pre class="highlight"><code>  # Our security address
+  Contact: mailto:security@cldsi.de
+
+  # Our OpenPGP key
+  Encryption: https://cldsi.de/pgp.txt
+
+  Preferred-Languages: en, de
+
+  # Our seurity policy
+  Policy: https://philip-media.github.io/security-policy/en.html
+  Acknowledgments: https://philip-media.github.io/security-policy/Acknowledgments.html
+
+  Canonical: https://cldsi.de/.well-known/security.txt
+</code></pre>
+        </div>
+      </div>
+
+      <footer class="border-top">
+        <p class="color-fg-muted mt-2">
+          &copy; <span id="date"></span>
+          <a href="//philip.media">philip.media</a> - Licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+        </p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById("date").innerHTML = new Date().getFullYear();
+      anchors.add("h1, h2, h3, h4");
+    </script>
+  </body>
+</html>

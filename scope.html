@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark" data-dark-theme="dark">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>philip.media Security Policy</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+    <script src="https://unpkg.com/alpinejs" defer></script>
+  </head>
+  <body class="mx-auto">
+    <div class="Header">
+      <div class="Header-item">
+        <a href="index.html" class="Header-link">Home</a>
+      </div>
+      <div class="Header-item">
+        <a href="vdp.html" class="Header-link"
+          >Vulnerabilty Disclosure Policy</a
+        >
+      </div>
+      <div class="Header-item">
+        <a href="scope.html" class="Header-link active">Scope</a>
+      </div>
+      <div class="Header-item">
+        <a href="Acknowledgments.html" class="Header-link">Acknowledgments</a>
+      </div>
+    </div>
+    <div class="m-5 mx-auto markdown-body">
+      <img width="200px" src="assets/img/pml.svg" alt="philip.media Logo" />
+      <h1>Scope of the vulnerability policy</h1>
+      <h2>Explicitly in scope</h2>
+      <div class="flash flash-success mb-3">
+        <svg class="octicon octicon-shield-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9275 3.55567C11.9748 3.54134 12.0252 3.54134 12.0725 3.55567L19.3225 5.75264C19.4292 5.78497 19.5 5.88157 19.5 5.99039V11C19.5 13.4031 18.7773 15.3203 17.5164 16.847C16.246 18.3853 14.3925 19.5706 12.0703 20.4278C12.0253 20.4444 11.9746 20.4444 11.9297 20.4278C9.60747 19.5706 7.75398 18.3853 6.48358 16.847C5.2227 15.3203 4.5 13.4031 4.5 11L4.5 5.9904C4.5 5.88158 4.57082 5.78496 4.6775 5.75264L11.9275 3.55567ZM12.5075 2.12013C12.1766 2.01985 11.8234 2.01985 11.4925 2.12013L4.24249 4.3171C3.50587 4.54032 3 5.21807 3 5.9904L3 11C3 13.7306 3.83104 15.9908 5.32701 17.8022C6.81347 19.6021 8.91996 20.9157 11.4102 21.835C11.7904 21.9753 12.2095 21.9753 12.5897 21.835C15.08 20.9157 17.1865 19.6021 18.673 17.8022C20.169 15.9908 21 13.7306 21 11V5.99039C21 5.21804 20.4941 4.54031 19.7575 4.3171L12.5075 2.12013ZM16.2803 9.78033C16.5732 9.48744 16.5732 9.01256 16.2803 8.71967C15.9874 8.42678 15.5126 8.42678 15.2197 8.71967L11 12.9393L9.28033 11.2197C8.98744 10.9268 8.51256 10.9268 8.21967 11.2197C7.92678 11.5126 7.92678 11.9874 8.21967 12.2803L10.4697 14.5303C10.7626 14.8232 11.2374 14.8232 11.5303 14.5303L16.2803 9.78033Z"></path>
+        </svg>
+        All endpoints should only be accessible via HTTPS.
+      </div>
+      <p>
+        The following endpoints, websites, APIs, web-apps, etc. are in scope:
+      </p>
+      <div x-data="scopeSearch()">
+        <div class="input-group pb-3">
+          <input
+            x-model="search"
+            class="form-control"
+            type="text"
+            placeholder="Search for scope.."
+            aria-label="Scope"
+          />
+          <span class="input-group-button">
+            <button
+              class="btn"
+              type="button"
+              aria-label="Search"
+              @click="search = ''"
+            >
+              Clear
+            </button>
+          </span>
+        </div>
+        <ul>
+          <template x-for="scope in filteredScopes()" :key="scope">
+            <li x-html="highlightSearch(scope)"></li>
+          </template>
+        </ul>
+        <p class="color-fg-muted">
+          Entries marked with <span class="color-fg-danger">*</span> should only
+          be accessible via VPN.
+        </p>
+        <h2>Explicitly out of scope</h2>
+        <ul>
+          <li>https://api.vegancheck.me/v0/cron/</li>
+          <li>https://api.vegancheck.me/v0/peta/crueltyfree</li>
+          <li>https://api.vegancheck.me/v0/peta/veganapproved</li>
+        </ul>
+        <footer class="border-top">
+          <p class="color-fg-muted mt-2">
+            &copy; <span id="date"></span>
+            <a href="//philip.media">philip.media</a> - Licensed under
+            <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>
+          </p>
+        </footer>
+      </div>
+    </div>
+    <script>
+      document.getElementById("date").innerHTML = new Date().getFullYear();
+      anchors.add("h1, h2, h3, h4");
+      function scopeSearch() {
+        return {
+          scopes: [
+            "api.philip.media<span class='color-fg-danger'>*</span>",
+            "api.vegancheck.me",
+            "brembeck.me",
+            "brembeck.net",
+            "cldsi.de",
+            "cloud.brembeck.me",
+            "cloud.vercel.jokenetwork.de<span class='color-fg-danger'>*</span>",
+            "dev.vegancheck.me<span class='color-fg-danger'>*</span>",
+            "docs.philip.media<span class='color-fg-danger'>*</span>",
+            "faq.jokenetwork",
+            "frontendnet.work",
+            "grade.vegancheck.me",
+            "grades.vegancheck.me",
+            "jokenetwork.de",
+            "mail.brembeck.me",
+            "muniml.de",
+            "news.philip.media<span class='color-fg-danger'>*</span>",
+            "philip.media",
+            "philipbrembeck.com",
+            "portal.philip.media<span class='color-fg-danger'>*</span>",
+            "preprod.vegancheck.me<span class='color-fg-danger'>*</span>",
+            "private.philipbrembeck.com<span class='color-fg-danger'>*</span>",
+            "staging.vegancheck.me",
+            "vegancheck.me",
+            "vegc.net",
+            "vegc.net/admin",
+            "vegc.net/api",
+          ],
+
+          search: "",
+          filteredScopes() {
+            return this.scopes.filter((scope) =>
+              scope.toLowerCase().includes(this.search.toLowerCase())
+            );
+          },
+          highlightSearch(s) {
+            if (this.search === "") return s;
+
+            return s.replaceAll(
+              new RegExp(`(${this.search.toLowerCase()})`, "ig"),
+              '<strong class="text-bold">$1</strong>'
+            );
+          },
+        };
+      }
+    </script>
+  </body>
+</html>
