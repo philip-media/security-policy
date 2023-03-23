@@ -70,7 +70,12 @@
         </ul>
         <p class="color-fg-muted">
           Entries marked with <span class="color-fg-danger">*</span> should only
-          be accessible via VPN.
+          be accessible via VPN.<br>
+          Entries marked with <span class='color-fg-success'>†</span> should only
+          be accessible via Authentification (e.g. Bearer Token).<br>
+          Entries marked with <span class='color-fg-done'>⚐</span> are only partly
+          in scope. philip.media only manages the domain for those instances. 
+          Reports for those domains will be forwared.
         </p>
         <h2>Explicitly out of scope</h2>
         <ul>
@@ -93,13 +98,30 @@
       function scopeSearch() {
         return {
           scopes: [
+            "ackee.gittnergarten.de",
+            "admin.brembeck.net",
+            "admin.jokenetwork.de",
+            "analytics.brembeck.me"
+            "analytics.brembeck.net",
+            "analytics.cldsi.de",
+            "analytics.gittnergarten.de <span class='color-fg-done'>⚐</span>",
+            "analytics.jokenetwork.de",
+            "analytics.philip.media",
+            "analytics.philipbrembeck.com",
+            "analytics.vegancheck.me",
             "api.philip.media <span class='color-fg-danger'>*</span>",
             "api.vegancheck.me",
+            "autoconfig.weartechno.de <span class='color-fg-done'>⚐</span>",
+            "autodiscover.weartechno.de <span class='color-fg-done'>⚐</span>",
+            "beobachtungen.gittnergarten.de <span class='color-fg-done'>⚐</span>",
+            "blog.cldsi.de",
             "brembeck.me",
             "brembeck.net",
+            "cdn.gittnergarten.de <span class='color-fg-done'>⚐</span>",
             "cldsi.de",
             "cloud.brembeck.me",
             "cloud.cldsi.de <span class='color-fg-danger'>*</span>",
+            "cloud.gittnergarten.de <span class='color-fg-done'>⚐</span>",
             "cloud.vercel.jokenetwork.de <span class='color-fg-danger'>*</span>",
             "dev.vegancheck.me <span class='color-fg-danger'>*</span>",
             "docs.philip.media <span class='color-fg-danger'>*</span>",
@@ -107,8 +129,14 @@
             "frontendnet.work",
             "grade.vegancheck.me",
             "grades.vegancheck.me",
+            "isitvegan.io",
             "jokenetwork.de",
+            "kinderportal.gittnergarten.de <span class='color-fg-done'>⚐</span>",
+            "laughterlines.de <span class='color-fg-done'>⚐</span>",
+            "lokstation22.de <span class='color-fg-done'>⚐</span>",
             "mail.brembeck.me",
+            "mastobot.vegancheck.me <span class='color-fg-success'>†</span>",
+            "media.philip.media",
             "muniml.de",
             "news.philip.media <span class='color-fg-danger'>*</span>",
             "philip.media",
@@ -116,11 +144,16 @@
             "portal.philip.media <span class='color-fg-danger'>*</span>",
             "preprod.vegancheck.me <span class='color-fg-danger'>*</span>",
             "private.philipbrembeck.com <span class='color-fg-danger'>*</span>",
+            "python.cldsi.de <span class='color-fg-success'>†</span>"",
+            "shop.brembeck.net <span class='color-fg-done'>⚐</span>",
             "staging.vegancheck.me",
+            "stats.faq.jokenetwork.de",
             "vegancheck.me",
             "vegc.net",
             "vegc.net/admin",
             "vegc.net/api",
+            "weartechno.de",
+            "yoga-love.me <span class='color-fg-done'>⚐</span>",
           ],
 
           search: "",
