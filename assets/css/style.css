@@ -1,3 +1,15 @@
+[data-color-mode="dark"], [data-dark-theme="dark"] {
+  --header-color:  rgba(9, 11, 13, 0.8);
+  --header-font-color-active: #fff;
+  --header-font-color: #ccc;
+}
+
+[data-color-mode="light"], [data-dark-theme="light"] {
+  --header-color:  rgba(0, 0, 0, 0.8);
+  --header-font-color-active: #fff;
+  --header-font-color: #ccc;
+}
+
 .markdown-body {
   width: 50%;
 }
@@ -27,18 +39,18 @@ tr > td:last-of-type {
 .Header {
   position: sticky;
   top: 0;
-  background-color: rgba(9, 11, 13, 0.8);
+  background-color: var(--header-color);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
 
 .Header-link {
-  color: #ccc !important;
+  color: var(--header-font-color) !important;
   font-weight: 400 !important;
 }
 
 .active {
-  color: #fff !important;
+  color: var(--header-font-color-active) !important;
   font-weight: 600 !important;
 }
 

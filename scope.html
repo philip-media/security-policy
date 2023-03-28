@@ -31,7 +31,13 @@
       </div>
     </div>
     <div class="m-5 mx-auto markdown-body">
-      <img width="200px" src="assets/img/pml.svg" alt="philip.media Logo" />
+      <picture>
+        <source
+          srcset="assets/img/pml.svg"
+          media="(prefers-color-scheme: dark)"
+        />
+        <img width="200px" src="assets/img/pmd.svg" alt="philip.media Logo" />
+      </picture>
       <h1>Scope of the vulnerability policy</h1>
       <h2>Explicitly in scope</h2>
       <div class="flash flash-success mb-3">
@@ -107,9 +113,8 @@
         </footer>
       </div>
     </div>
+    <script src="assets/js/script.js"></script>
     <script>
-      document.getElementById("date").innerHTML = new Date().getFullYear();
-      anchors.add("h1, h2, h3, h4");
       function scopeSearch() {
         return {
           scopes: [
@@ -186,7 +191,7 @@
             const [before, span, after] = parts;
             const highlighted = before.replaceAll(
               new RegExp(`(${this.search.toLowerCase()})`, "ig"),
-              '<strong>$1</strong>'
+              "<strong>$1</strong>"
             );
 
             return `${highlighted}${span}${after}`;
