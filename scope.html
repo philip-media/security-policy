@@ -80,7 +80,7 @@
           </span>
         </div>
         <ul>
-          <template x-for="scope in filteredScopes()" :key="scope">
+          <template x-for="(scope, index) in filteredScopes()" :key="index">
             <li>
               <a
                 :href="`https://${scope.split(' ')[0]}`"
