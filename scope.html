@@ -114,7 +114,9 @@
     <script src="assets/js/script.js"></script>
     <script>
       async function fetchScopes() {
-        const response = await fetch("scopes.json");
+        const response = await fetch(
+          "https://raw.githubusercontent.com/philip-media/security-policy/main/scope.json"
+        );
         return response.json();
       }
 
